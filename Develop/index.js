@@ -40,8 +40,20 @@ const questions = [
     },
     {
         type:'input',
-        message: 'If they have additional questions, put either your email or github username',
-        name: 'contact',
+        message: 'Enter your github username.',
+        name: 'githubUsername',
+    },
+    {
+        type: 'input',
+        message: 'Enter your email',
+        name: 'email',
+        validate: function (val) {
+            if (val.includes('@')) {
+                return true
+            } else {
+                return false
+            }
+        }
     }
 ];
 
