@@ -1,5 +1,5 @@
 // Displays a badge depending on the type of license
-function renderLicenseSection(license) {
+function renderLicense(license) {
   switch (license) {
     case 'MIT':
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)'
@@ -41,19 +41,18 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
+  ## License
+  This code is covered under ${data.license} license. For more information click: ${renderLicense(data.license)}
+
   ## Contributing
   ${data.contributing}
 
   ## Tests
   ${data.test}
 
-  ##Questions 
+  ## Questions 
   [GitHub](https://github.com/${data.githubUsername})
   Please feel free to contact me through email (${data.email}) if you have any questions.
-
-
-
-
 `;
 }
 

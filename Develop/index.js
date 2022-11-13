@@ -78,9 +78,9 @@ function init() {
     .prompt(questions)
     .then(answers => {
         console.log(JSON.stringify(answers, null, ''))
-        writeToFile(Readme.md, generateMarkdown(answers))
+        writeToFile('README.md', generateMarkdown(answers))
     })
 };
 
-p
+
 init();
