@@ -66,7 +66,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer
+    .prompt(questions)
     .then(answers => {
         console.log(JSON.stringify(answers, null, ''))
         writeToFile(Readme.md, generateMarkdown(answers))
