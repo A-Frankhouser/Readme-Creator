@@ -1,3 +1,4 @@
+// Displays a badge depending on the type of license
 function renderLicenseSection(license) {
   switch (license) {
     case 'MIT':
@@ -17,9 +18,41 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//Generates the README.md file
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
+
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Collaborators](#contributing)\
+  * [Tests](#test)
+  * [Contact](#contact)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## Tests
+  ${data.test}
+
+  ##Questions 
+  [GitHub](https://github.com/${data.githubUsername})
+  Please feel free to contact me through email (${data.email}) if you have any questions.
+
+
+
 
 `;
 }
