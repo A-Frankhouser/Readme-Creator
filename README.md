@@ -15,13 +15,13 @@ During this project I learned how to use multiple javascript files and export th
 
 After everything is installed, open up the integrated terminal of the index.js file. In this terminal write "node index". You will then be prompted to fill out multiple questions. Fill each one out. After answering all the questions you will have a completed README file!
 
-![Demonstration of typing in node index](../../../../../../../../../C:/Users/frees/OneDrive/Desktop/Uconn%20Bootcamp/Challenges/Readme-Generator/Readme-Creator/assets/Screenshot%20(13).png)
+![Demonstration of typing in node index](./assets/Screenshot%20(13).png)
 
-![The different questions](../../../../../../../../../C:/Users/frees/OneDrive/Desktop/Uconn%20Bootcamp/Challenges/Readme-Generator/Readme-Creator/assets/Screenshot%20(14).png)
+![The different questions](./assets/Screenshot%20(14).png)
 
-![The readme file](../../../../../../../../../C:/Users/frees/OneDrive/Desktop/Uconn%20Bootcamp/Challenges/Readme-Generator/Readme-Creator/assets/Screenshot%20(16).png)
+![The readme file](./assets/Screenshot%20(16).png)
 
-![How it looks when previewed](../../../../../../../../../C:/Users/frees/OneDrive/Desktop/Uconn%20Bootcamp/Challenges/Readme-Generator/Readme-Creator/assets/Screenshot%20(17).png)
+![How it looks when previewed](./assets/Screenshot%20(17).png)
 
 #### Note: <br>
 For the demonstration I did not choose a license, but if you did however then it would show up along with a badge. If this badge is clicked on it will bring you to a spot to give you more information on that license.
