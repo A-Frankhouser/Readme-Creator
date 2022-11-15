@@ -1,8 +1,8 @@
 
-  # Generated ReadMe
+  # ReadMe Creator
 
   ## Description
-  Creates a readme file
+  It creates a readme file
 
   ## Table of Contents
   * [Description](#description)
@@ -10,20 +10,20 @@
   * [Usage](#usage)
   * [License](#license)
   * [Collaborators](#contributing)
-  * [Tests](#test)
-  * [Contact](#contact)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
-  npm i
+  go to the package.json file and run npm i 
 
   ## Usage
-  clone to local repository and then type in npm i in intergrated terminal
+  you answer a series of questions. Then based on your answers creates a personalized readme for you
 
   ## License
-  This code is covered under Apache 2.0 license. For more information click: [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+  This code is covered under GNU GPL v3.0 license. For more information click:  
 
   ## Contributing
-  Please contact me before contributing
+  contact me through email or github before hand
 
   ## Tests
   n/a

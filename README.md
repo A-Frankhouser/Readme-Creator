@@ -13,7 +13,10 @@ During this project I learned how to use multiple javascript files and export th
 
 ## Usage:
 
-After everything is installed, open up the integrated terminal of the index.js file. In this terminal write "node index". You will then be prompted to fill out multiple questions. Fill each one out. After answering all the questions you will have a completed README file!
+After everything is installed, open up the integrated terminal of the index.js file. In this terminal write "node index". You will then be prompted to fill out multiple questions. Fill each one out. After answering all the questions you will have a completed README file!<br/>
+Here is a quick video demonstrating it!: https://drive.google.com/file/d/1aV7FlcRKZ4Yz8VmiPDYv-zgrmWbhH1yX/view
+
+
 
 ![Demonstration of typing in node index](./assets/Screenshot%20(13).png)
 
